@@ -1,0 +1,60 @@
+/* Estilo aplicado nos elementos da seção body */
+body {
+    /* Configuração de fonte */
+    font-family: Arial;
+    font-size: 20px;
+    /* alihamento de texto centralizado */
+    text-align: center;
+    color: red;
+    background-color: white;
+    /* Reset the margem e pandding */
+    padding: 0;
+    margin: 0;
+}
+
+/* estilos aplicados nos elementos da seção nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    border-bottom: 5px solid red; 
+}
+
+/* Estilo aplicado na lista da seção nav */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    margin-right: 75px;
+    font-size: 18px;
+}
+
+ul li a {
+    color: red;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: blue;
+}
+
+footer {
+    padding: 20px;
+    border-top: 5px solid red;
+    margin-top: 20px;
+}
+
+img1 {
+    border: 3px solid red;
+    height: 30px;
+    width: 110px;
+}   
+
+#img-una{
+    width: 140px;
+    height: 45px;
+}
