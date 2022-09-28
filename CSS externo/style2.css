@@ -2,22 +2,37 @@
     margin: 5px;
     padding: 3px;
     font-size: 20px;
+    color: white;
 }
 body {
     /* Configuração de fonte */
     font-family: Arial;
+
+}
+body::before {
     
-    }
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: linear-gradient(115deg, rgba(58, 85, 158, 0.8), rgba(136, 136, 206, 0.7) ), url('/img/fundo1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+}
 
-    #div-paragrafos {
-        color: rgb(255, 246, 240);
-        background-color: red
-    }
+#div-paragrafos {
+    color: rgb(255, 246, 240);
+    background-color: red
+}
 
-    .Longo {
-        color: rgb(255, 246, 240);
-        background: red;
-    }
+.Longo {
+    color: rgb(255, 246, 240);
+    background: red;
+}
 
 h1>b{
     font-size: 30px;

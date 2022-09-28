@@ -16,7 +16,7 @@ body {
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 60px;
+    padding: 35px;
     align-items: center;
     border-bottom: 5px solid red; 
 }
@@ -57,4 +57,11 @@ img1 {
 #img-una{
     width: 140px;
     height: 45px;
+}
+
+#img-extensao {
+    width: 600px;
+    height: auto;
+
+
 }
